@@ -16,10 +16,10 @@ async def ping_handler(_):
 @request_schema(FreeTextHandler)
 async def free_text_handler(request):
     request_body = await request.json()
-    request_string = request_body['text']
+    request_text = request_body['text']
 
     # TODO: implement your handler logic here, for example:
-    if 'abcd' in request_string:
+    if 'abcd' in request_text:
         raise web.HTTPBadRequest(
             reason='Your request  shouldn\'t contain "abcd"'
         )
