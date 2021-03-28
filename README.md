@@ -32,4 +32,4 @@ Test app for the second lab
     18:49:11 web.1  | [2021-03-21 18:49:11 +0200] [17815] [INFO] Booting worker with pid: 17815
     ```
     - go to http://localhost:8001
-    - you should see Swagger app with the `/ping` endpoint
+    - you should see Swagger app with the `/ping` and `/free_text` endpoints

@@ -6,3 +6,11 @@ class PingResponse(Schema):
         description='Health check response',
         example='pong'
     )
+
+
+class FreeTextHandler(Schema):
+    text = fields.Str(
+        description='Free text input',
+        example='Some free text input',
+        required=True
+    )
