@@ -1,0 +1,6 @@
+aiohttp
+aiohttp-apispec
+ddtrace
+gunicorn
+honcho
+marshmallow

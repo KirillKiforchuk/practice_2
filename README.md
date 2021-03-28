@@ -3,9 +3,9 @@ Test app for the second lab
 ***
 ### Quickstart
 ##### Pre-Installation requirements
-- poetry (https://python-poetry.org/docs/)
 - git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - python 3.9 (https://www.python.org/downloads/)
+- pip (comes with python)
 ##### Install
 
 1. Project setup
@@ -16,7 +16,7 @@ Test app for the second lab
     - go to the directory with the cloned project and install required packages
     ```
     $ cd practice_2
-    $ poetry install
+    $ pip install -r requirements.txt
     ```
 1. Web service run
     - go to the directory with project
