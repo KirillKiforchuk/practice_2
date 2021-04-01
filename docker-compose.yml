@@ -1,0 +1,6 @@
+version: "3"
+services:
+    web_service:
+        build: .
+        container_name: lab2_web_service
+        network_mode: host
