@@ -15,7 +15,7 @@ Test app for the second lab
 1. Project setup
     - clone project from github
         ```
-        $ git clone https://github.com/KirillKiforchuk/practice_2.git
+        $ git clone git@github.com:kiforchuk/practice_2.git
         ```
     - go to the directory with the cloned project and install required packages
         ```
@@ -41,7 +41,7 @@ Test app for the second lab
 1. Project setup
     - clone project from github
         ```
-        $ git clone https://github.com/KirillKiforchuk/practice_2.git
+        $ git clone git@github.com:kiforchuk/practice_2.git
         ```
 2. Web service build and run
     - Windows:

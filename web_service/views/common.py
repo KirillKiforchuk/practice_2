@@ -18,10 +18,11 @@ async def free_text_handler(request):
     request_body = await request.json()
     request_text = request_body['text']
 
-    # TODO: implement your handler logic here, for example:
     if 'abcd' in request_text:
         raise web.HTTPBadRequest(
             reason='Your request  shouldn\'t contain "abcd"'
         )
 
     return web.json_response({'status': 'ok'})
+
+# TODO: add your endpoints below
